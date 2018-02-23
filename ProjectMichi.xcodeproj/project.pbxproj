@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2A4C0F9203FB5B300C1D05F /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A4C0F8203FB5B300C1D05F /* PaperOnboarding.framework */; };
+		B2A4C0FA203FB5B300C1D05F /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B2A4C0F8203FB5B300C1D05F /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B2D65572203F96AA000B9BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D65571203F96AA000B9BD8 /* AppDelegate.swift */; };
 		B2D65574203F96AA000B9BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D65573203F96AA000B9BD8 /* ViewController.swift */; };
 		B2D65577203F96AA000B9BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D65575203F96AA000B9BD8 /* Main.storyboard */; };
@@ -14,7 +16,22 @@
 		B2D6557C203F96AA000B9BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D6557A203F96AA000B9BD8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B2A4C0FB203FB5B300C1D05F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B2A4C0FA203FB5B300C1D05F /* PaperOnboarding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B2A4C0F8203FB5B300C1D05F /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
 		B2D6556E203F96AA000B9BD8 /* ProjectMichi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectMichi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D65571203F96AA000B9BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D65573203F96AA000B9BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A4C0F9203FB5B300C1D05F /* PaperOnboarding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +56,7 @@
 		B2D65565203F96AA000B9BD8 = {
 			isa = PBXGroup;
 			children = (
+				B2A4C0F8203FB5B300C1D05F /* PaperOnboarding.framework */,
 				B2D65570203F96AA000B9BD8 /* ProjectMichi */,
 				B2D6556F203F96AA000B9BD8 /* Products */,
 			);
@@ -74,6 +93,7 @@
 				B2D6556A203F96AA000B9BD8 /* Sources */,
 				B2D6556B203F96AA000B9BD8 /* Frameworks */,
 				B2D6556C203F96AA000B9BD8 /* Resources */,
+				B2A4C0FB203FB5B300C1D05F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +296,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RKE9UY8PW2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ProjectMichi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarionTest.ProjectMichi;
@@ -291,6 +315,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RKE9UY8PW2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ProjectMichi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarionTest.ProjectMichi;
