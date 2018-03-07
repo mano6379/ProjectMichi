@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,31 +15,65 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProjectMichi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucs-fR-RQB" customClass="OnboardingView" customModule="ProjectMichi" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                             </view>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxM-bK-o0N">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Getting Started!"/>
+                                <connections>
+                                    <segue destination="19f-0B-jer" kind="show" id="RbW-BX-ruP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ucs-fR-RQB" secondAttribute="trailing" id="1aO-Eg-FHY"/>
-                            <constraint firstItem="ucs-fR-RQB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ktj-p3-rUD"/>
-                            <constraint firstItem="ucs-fR-RQB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Zzd-Pa-7dR"/>
-                            <constraint firstItem="ucs-fR-RQB" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cKM-e4-bvV"/>
-                            <constraint firstItem="ucs-fR-RQB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lfk-FL-Ltw"/>
+                            <constraint firstItem="ucs-fR-RQB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5XM-F8-b3V"/>
+                            <constraint firstItem="ucs-fR-RQB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="euC-ns-J0K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ucs-fR-RQB" secondAttribute="trailing" id="gXO-ga-StF"/>
+                            <constraint firstItem="ucs-fR-RQB" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="vEw-rR-Cvl"/>
+                            <constraint firstItem="ucs-fR-RQB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vQ9-Y6-Jmx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="onboardingView" destination="ucs-fR-RQB" id="QXf-qJ-aUE"/>
+                        <outlet property="getStartedButton" destination="CxM-bK-o0N" id="dhJ-d4-6ok"/>
+                        <outlet property="onboadingView" destination="ucs-fR-RQB" id="BKL-WC-s7x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="91.304347826086968"/>
+            <point key="canvasLocation" x="135" y="90.845070422535215"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h0i-WC-kgu">
+            <objects>
+                <viewController id="19f-0B-jer" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mr0-wm-lKS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THIS IS THE APP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVJ-ue-2wU">
+                                <rect key="frame" x="16" y="20" width="130" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="R7g-Cy-crR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yj0-rT-Vji" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="91"/>
         </scene>
     </scenes>
 </document>
