@@ -32,12 +32,16 @@ PaperOnboardingDelegate {
     }
     
     func onboardingItem(at index: Int) -> OnboardingItemInfo{
-        let backgroundColorOne = UIColor(red: 215/255, green: 72/255, blue: 89/255,
+        
+        //sample colors: http://www.tayloredmktg.com/rgb/
+        
+        
+        let backgroundColorOne = UIColor(red: 255/255, green: 255/255, blue: 0/255,
                                          alpha: 1)
-        let backgroundColorTwo = UIColor(red: 106/255, green: 166/255, blue:
-            211/255, alpha: 1)
-        let backgroundColorThree = UIColor(red: 168/255, green: 200/255, blue:
-            78/255, alpha: 1)
+        let backgroundColorTwo = UIColor(red: 255/255, green: 215/255, blue:
+            0/255, alpha: 1)
+        let backgroundColorThree = UIColor(red: 50/255, green: 205/255, blue:
+            50/255, alpha: 1)
         
         let titleFont = UIFont(name: "AvenirNext-Bold", size: 20)
         let descriptionFont = UIFont(name: "AvenirNext-Regular", size: 18)
