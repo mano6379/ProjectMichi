@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B9EB4012058B35D004A9E33 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */; };
+		4B9EB4032058B3B9004A9E33 /* MoililiTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EB4022058B3B9004A9E33 /* MoililiTableVC.swift */; };
 		4BD9BF86203FB6100086D791 /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD9BF85203FB6100086D791 /* PaperOnboarding.framework */; };
 		4BD9BF87203FB6100086D791 /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD9BF85203FB6100086D791 /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4BD9BF8B203FB6F30086D791 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD9BF8A203FB6F30086D791 /* OnboardingView.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		4B9EB4022058B3B9004A9E33 /* MoililiTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoililiTableVC.swift; sourceTree = "<group>"; };
 		4BD9BF85203FB6100086D791 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
 		4BD9BF8A203FB6F30086D791 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B2D6556E203F96AA000B9BD8 /* ProjectMichi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectMichi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +83,8 @@
 				B2D65571203F96AA000B9BD8 /* AppDelegate.swift */,
 				B2D65573203F96AA000B9BD8 /* ViewController.swift */,
 				B2D65575203F96AA000B9BD8 /* Main.storyboard */,
+				4B9EB4022058B3B9004A9E33 /* MoililiTableVC.swift */,
+				4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */,
 				B2D65578203F96AA000B9BD8 /* Assets.xcassets */,
 				B2D6557A203F96AA000B9BD8 /* LaunchScreen.storyboard */,
 				B2D6557D203F96AA000B9BD8 /* Info.plist */,
@@ -160,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD9BF8B203FB6F30086D791 /* OnboardingView.swift in Sources */,
+				4B9EB4032058B3B9004A9E33 /* MoililiTableVC.swift in Sources */,
 				B2D65574203F96AA000B9BD8 /* ViewController.swift in Sources */,
 				B2D65572203F96AA000B9BD8 /* AppDelegate.swift in Sources */,
+				4B9EB4012058B35D004A9E33 /* HomeScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
