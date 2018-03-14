@@ -44,11 +44,11 @@ PaperOnboardingDelegate {
         
         var onboardingViews: [OnboardingItemInfo] = []
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "brush"),title:"Select Your Mokupuni (Island)", description: "Choose A Mokupuni To Start Your Exploration", pageIcon:UIImage(), color: backgroundColorOne, titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "brush"),title:"Welcome To Streets", description: "To learn the history behind street names in your neighborhood", pageIcon:UIImage(), color: backgroundColorOne, titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "notification"), title:"Select Your Moku (District)", description: "Start learning about each Moku and the wahi pana (or sites) of each Moku", pageIcon:UIImage(), color:backgroundColorTwo, titleColor: UIColor.white, descriptionColor:UIColor.white, titleFont: titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "notification"), title:"Pick Your Neighborhood", description: "Learn street to street", pageIcon:UIImage(), color:backgroundColorTwo, titleColor: UIColor.white, descriptionColor:UIColor.white, titleFont: titleFont!, descriptionFont: descriptionFont!))
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "rocket") , title:"Select a Wahi Pana", description: "Learn and Explore the Richness of Each Wahi Pana AtYour ", pageIcon:UIImage(), color: backgroundColorThree,titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "rocket") , title:"Follow The Route", description: "Discover the history", pageIcon:UIImage(), color: backgroundColorThree,titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
         
         return onboardingViews[index]
     }
