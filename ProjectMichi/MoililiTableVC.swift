@@ -18,8 +18,18 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
         
         
         @IBOutlet weak var tableView: UITableView!
+    
+    var streetImageData = [String]()
+    var textViewData = [String]()
+        
         override func viewDidLoad() {
             
+            let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+            let dict = NSDictionary(contentsOfFile: path!)
+            
+            streetImageData = dict!.object(forKey:"StreetImages") as! [String]
+            textViewData = dict!.object(forKey: "MoiliiliRegionTextView") as! [String]
+           
             self.tableView.dataSource  = self
             
             super.viewDidLoad()
@@ -48,7 +58,20 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
                 return cell
                 
         }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "mySegue"
+        {
+            let s1 = segue.destination as! detailViewController
+            let imageIndex = tableView.indexPathForSelectedRow?.row
+            s1.imagePass = streetImageData [imageIndex!]
+            s1.textViewPass = textViewData [imageIndex!]
+        }
+    }
     }
     
     
