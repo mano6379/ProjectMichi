@@ -13,7 +13,7 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
     
    
         
-        var moiliiliStreetNames = ["Beretania", "Isenberg", "Young", "King", "Coolidge", "Hausten", "Kapaakea", "Kaialiu"]
+        var moiliiliStreetNames = ["Beretania","Young","Isenberg","King", "Coolidge", "Hausten", "Kapaakea", "Kaialiu"]
         
         
         
@@ -21,6 +21,7 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var streetImageData = [String]()
     var textViewData = [String]()
+    var streetTitleData = [String]()
         
         override func viewDidLoad() {
             
@@ -29,6 +30,7 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
             
             streetImageData = dict!.object(forKey:"StreetImages") as! [String]
             textViewData = dict!.object(forKey: "MoiliiliRegionTextView") as! [String]
+            streetTitleData = dict!.object(forKey: "StreetTitle") as! [String]
            
             self.tableView.dataSource  = self
             
@@ -70,6 +72,7 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
             let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = streetImageData [imageIndex!]
             s1.textViewPass = textViewData [imageIndex!]
+            s1.titlePass = streetTitleData [imageIndex!]
         }
     }
     }

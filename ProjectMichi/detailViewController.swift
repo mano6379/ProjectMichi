@@ -15,6 +15,7 @@ class detailViewController: UIViewController {
     
     var imagePass: String?
     var textViewPass: String?
+    var titlePass: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,9 @@ class detailViewController: UIViewController {
         // Do any additional setup after loading the view.
         if let textViewName = textViewPass {
             textView.text = textViewName 
+        }
+        if let titleName = titlePass {
+            self.title = titleName 
         }
     }
 

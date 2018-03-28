@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>StreetTitle</key>
+	<array>
+		<string>Beretania</string>
+		<string>Young</string>
+		<string>Isenberg</string>
+		<string>King</string>
+		<string>Coolidge</string>
+		<string>Hausten</string>
+		<string>Kapaakea</string>
+		<string>Kaialiu</string>
+	</array>
 	<key>MoiliiliRegionTextView</key>
 	<array>
 		<string>This is a test </string>
