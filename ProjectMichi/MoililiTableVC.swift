@@ -13,7 +13,7 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
     
    
         
-        var moiliiliStreetNames = ["Beretania","Young","Isenberg","King", "Coolidge", "Hausten", "Kapaakea", "Kaialiu"]
+        var moiliiliStreetNames = ["Beretania","Young","Isenberg","King",  "Hausten", "Kapaakea"]
         
         
         
