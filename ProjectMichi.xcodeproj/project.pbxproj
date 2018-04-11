@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B029613205B546400C76F17 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B029612205B546400C76F17 /* Property List.plist */; };
 		4B029617205B58AC00C76F17 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B029616205B58AC00C76F17 /* detailViewController.swift */; };
+		4B65F527207DA182005594B7 /* RouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B65F526207DA182005594B7 /* RouteVC.swift */; };
+		4B65F529207DA6AD005594B7 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B65F528207DA6AD005594B7 /* Restaurant.swift */; };
 		4B9EB4012058B35D004A9E33 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */; };
 		4B9EB4032058B3B9004A9E33 /* MoililiTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EB4022058B3B9004A9E33 /* MoililiTableVC.swift */; };
 		4BD9BF86203FB6100086D791 /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD9BF85203FB6100086D791 /* PaperOnboarding.framework */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		4B029612205B546400C76F17 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4B029616205B58AC00C76F17 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		4B65F526207DA182005594B7 /* RouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteVC.swift; sourceTree = "<group>"; };
+		4B65F528207DA6AD005594B7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
 		4B9EB4022058B3B9004A9E33 /* MoililiTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoililiTableVC.swift; sourceTree = "<group>"; };
 		4BD9BF85203FB6100086D791 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
@@ -86,8 +90,10 @@
 			children = (
 				B2D65571203F96AA000B9BD8 /* AppDelegate.swift */,
 				B2D65573203F96AA000B9BD8 /* ViewController.swift */,
-				B2D65575203F96AA000B9BD8 /* Main.storyboard */,
+				4B65F526207DA182005594B7 /* RouteVC.swift */,
+				4B65F528207DA6AD005594B7 /* Restaurant.swift */,
 				4B029612205B546400C76F17 /* Property List.plist */,
+				B2D65575203F96AA000B9BD8 /* Main.storyboard */,
 				4B9EB4022058B3B9004A9E33 /* MoililiTableVC.swift */,
 				4B029616205B58AC00C76F17 /* detailViewController.swift */,
 				4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */,
@@ -173,8 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD9BF8B203FB6F30086D791 /* OnboardingView.swift in Sources */,
+				4B65F527207DA182005594B7 /* RouteVC.swift in Sources */,
 				4B9EB4032058B3B9004A9E33 /* MoililiTableVC.swift in Sources */,
 				B2D65574203F96AA000B9BD8 /* ViewController.swift in Sources */,
+				4B65F529207DA6AD005594B7 /* Restaurant.swift in Sources */,
 				B2D65572203F96AA000B9BD8 /* AppDelegate.swift in Sources */,
 				4B9EB4012058B35D004A9E33 /* HomeScreenVC.swift in Sources */,
 				4B029617205B58AC00C76F17 /* detailViewController.swift in Sources */,

@@ -35,6 +35,9 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
             self.tableView.dataSource  = self
             
             super.viewDidLoad()
+            
+            //programmatically add bar button
+             //self.navigationItem.rightBarButtonItem = self.editButtonItem;
             // Do any additional setup after loading the view, typically from a nib.
         }
         
