@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StreetTitle</key>
+	<array>
+		<string>Beretania</string>
+		<string>Young</string>
+		<string>Isenberg</string>
+		<string>King</string>
+		<string>Hausten</string>
+		<string>Kapaakea</string>
+	</array>
+	<key>MoiliiliRegionTextView</key>
+	<array>
+		<string>This street was named in 1836 by the Sandwich Island Gazette (page 8). Beretania was sometimes Back Street, but probably because the consul representing Britannia lived on it, Beretania proved the most popular
+This street was named in 1836 by the Sandwich Island Gazette (page 8). Beretania was sometimes Back Street, but probably because the consul representing Britannia lived on it, Beretania proved the most popular
+
+This street was named in 1836 by the Sandwich Island Gazette (page 8). Beretania was sometimes Back Street, but probably because the consul representing Britannia lived on it, Beretania proved the most popular
+
+This street was named in 1836 by the Sandwich Island Gazette (page 8). Beretania was sometimes Back Street, but probably because the consul representing Britannia lived on it, Beretania proved the most popular
+</string>
+		<string>The street is named for Daniel Paul Rice Isenberg, the son of Paul and Hanna Rice Isenberg. Daniel Isenberg was owner of Wai&apos;alae Ranch; the Wai&apos;alae Golf Course stands on this property. Isenberg was also president of the Mo&apos;ili&apos;ili baseball league, &quot;when the street, leading to the old baseball park, was opened&quot; (03). Isenberg passed away in 1919.</string>
+		<string>John Young, famous in island history as fighting companion and advisor of Kamehameha I, is the John Young for whom the present Young Street is named.</string>
+		<string>King was frequently referred to as Kawaiahao Street because of the church. When foreigners did not vary these names, the Hawaiians did.</string>
+		<string>Queen Kamamalu&apos;s summer cottages stood near the presence site of the Willow&apos;s restaurant on this street. The site was located over lava tubes which formed natural caverns, bringing the fresh water springs from the mountains to the ocean that formed the property’s pools.  Stories say that there was a secret passageway and that the guardian spirit Kane watched over the water sacred to him and gave the place the happy, restful atmosphere.
+
+Because of these many reasons, the Hawaiians found it an ideal spot to grow their taro.  In 1870, Chinese came and settled, planting rice and creating duck ponds.  They were followed by Japanese who found the land ideal for truck farming.
+
+The Willows became the home of Emma McGuire Hausten and her family in the 1920’s.  It was the family’s garden home with beautiful tropical gardens of flora and fauna.  “Ma” Hausten was an avid gardener and planted white ginger, water lilies, plumeria from the South Seas, willow trees, kukui trees, breadfruit and fruit trees as well as Hawaiian herbs and medical plants.  The gardens thrived and people asked if they might use the tropical setting for weddings, luaus and parties.  Finally, in the mid ‘30’s limited private parties were held.  In the years to follow, authentic luaus put on by the family were given and visiting dignitaries and celebrities gathered to experience true Hawaiian hospitality in a home-like atmosphere.</string>
+		<string>A number of streets record the memory of men, both Hawaiian and haole, who were prominent in government affairs from the reign of Kamehameha III to the end of that of Queen Liliuo- kalani. Kapaakea, a small lane off Kapiolani Boulevard, com- memorates a high chief by that name, a member of Kamehameha Ill&apos;s Privy Council and father of King Kalakaua. Many scholars have documented that the Queen and her court revelled in the balmy summer water of the nearby Kapa‘akea Springs.</string>
+	</array>
+	<key>StreetImages</key>
+	<array>
+		<string>Beretania</string>
+		<string>Isenberg</string>
+		<string>young</string>
+		<string>King</string>
+		<string>hausten</string>
+		<string>Kapaakea</string>
+	</array>
+</dict>
+</plist>

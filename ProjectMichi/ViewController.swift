@@ -15,6 +15,8 @@
 //
 import UIKit
 import PaperOnboarding
+
+
 class ViewController: UIViewController, PaperOnboardingDataSource,
 PaperOnboardingDelegate {
     
@@ -32,23 +34,27 @@ PaperOnboardingDelegate {
     }
     
     func onboardingItem(at index: Int) -> OnboardingItemInfo{
-        let backgroundColorOne = UIColor(red: 215/255, green: 72/255, blue: 89/255,
-                                         alpha: 1)
-        let backgroundColorTwo = UIColor(red: 106/255, green: 166/255, blue:
-            211/255, alpha: 1)
-        let backgroundColorThree = UIColor(red: 168/255, green: 200/255, blue:
-            78/255, alpha: 1)
         
-        let titleFont = UIFont(name: "AvenirNext-Bold", size: 20)
-        let descriptionFont = UIFont(name: "AvenirNext-Regular", size: 18)
+        //sample colors: http://www.tayloredmktg.com/rgb/
+        
+        
+        let backgroundColorOne = UIColor(red: 14/255, green: 122/255, blue: 194/255,
+                                         alpha: 1)
+        let backgroundColorTwo = UIColor(red: 255/255, green: 47/255, blue:
+            47/255, alpha: 1)
+        let backgroundColorThree = UIColor(red: 246/255, green: 246/255, blue:
+            45/255, alpha: 1)
+        
+        let titleFont = UIFont(name: "AvenirNext-Bold", size: 25)
+        let descriptionFont = UIFont(name: "AvenirNext-Regular", size: 22)
         
         var onboardingViews: [OnboardingItemInfo] = []
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "brush"),title:"Select Your Mokupuni (Island)", description: "Choose A Mokupuni To Start Your Exploration", pageIcon:UIImage(), color: backgroundColorOne, titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "onbroading 1"),title:"Welcome To Streets", description: "To learn the history behind street names in your neighborhood", pageIcon:UIImage(), color: backgroundColorOne, titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "notification"), title:"Select Your Moku (District)", description: "Start learning about each Moku and the wahi pana (or sites) of each Moku", pageIcon:UIImage(), color:backgroundColorTwo, titleColor: UIColor.white, descriptionColor:UIColor.white, titleFont: titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "Onboarding2"), title:"Pick Your Neighborhood", description: "Learn street to street", pageIcon:UIImage(), color:backgroundColorTwo, titleColor: UIColor.white, descriptionColor:UIColor.white, titleFont: titleFont!, descriptionFont: descriptionFont!))
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "rocket") , title:"Select a Wahi Pana", description: "Learn and Explore the Richness of Each Wahi Pana AtYour ", pageIcon:UIImage(), color: backgroundColorThree,titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "onbroading 3") , title:"Follow The Route", description: "Discover the history", pageIcon:UIImage(), color: backgroundColorThree,titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
         
         return onboardingViews[index]
     }
@@ -99,5 +105,19 @@ PaperOnboardingDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    
+        
     }
+    
+
+
+
+
+
+
+
+
 }
+
+
+
