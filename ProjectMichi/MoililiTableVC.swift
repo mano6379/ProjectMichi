@@ -61,6 +61,10 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
                 let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!
                 let text = moiliiliStreetNames[indexPath.row]
                 cell.textLabel?.text = text
+                //set text font
+                cell.textLabel?.font = UIFont(name:"Noteworthy", size:22)
+        //set text color
+                cell.textLabel?.textColor = UIColor.white
                 cell.backgroundColor = UIColor(red: 14/255.0, green: 122/255.0, blue:194/255.0, alpha: 1)
                 return cell
                 
