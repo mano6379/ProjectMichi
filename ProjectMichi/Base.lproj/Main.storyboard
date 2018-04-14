@@ -91,7 +91,7 @@
                     <navigationItem key="navigationItem" id="gkD-91-88U">
                         <barButtonItem key="rightBarButtonItem" title="Route" id="a9R-BS-oJd">
                             <connections>
-                                <segue destination="gcG-KQ-Wi2" kind="show" id="uce-Xt-4IT"/>
+                                <segue destination="gcG-KQ-Wi2" kind="show" identifier="myRoute" id="uce-Xt-4IT"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -205,7 +205,7 @@
                                 <state key="normal" title="Kalihi"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="R7g-Cy-crR"/>
                     </view>
                     <navigationItem key="navigationItem" id="fsb-hs-wI8"/>
@@ -255,6 +255,6 @@
         <image name="honolulu streets" width="700" height="395"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cBy-AI-jXK"/>
+        <segue reference="Fnq-Vp-2k0"/>
     </inferredMetricsTieBreakers>
 </document>

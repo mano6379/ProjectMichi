@@ -15,7 +15,7 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
         
         var moiliiliStreetNames = ["Beretania","Young","Isenberg","King",  "Hausten", "Kapaakea"]
         
-        
+    
         
         @IBOutlet weak var tableView: UITableView!
     
@@ -35,11 +35,13 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
             self.tableView.dataSource  = self
             
             super.viewDidLoad()
+            self.tableView.backgroundColor = UIColor(red: 14/255.0, green: 122/255.0, blue:194/255.0, alpha: 1)
             
             //programmatically add bar button
              //self.navigationItem.rightBarButtonItem = self.editButtonItem;
             // Do any additional setup after loading the view, typically from a nib.
         }
+    
         
         override func didReceiveMemoryWarning() {
             super.didReceiveMemoryWarning()
@@ -59,7 +61,7 @@ class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelega
                 let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!
                 let text = moiliiliStreetNames[indexPath.row]
                 cell.textLabel?.text = text
-                
+                cell.backgroundColor = UIColor(red: 14/255.0, green: 122/255.0, blue:194/255.0, alpha: 1)
                 return cell
                 
         }
