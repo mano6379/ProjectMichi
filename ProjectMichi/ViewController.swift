@@ -50,11 +50,11 @@ PaperOnboardingDelegate {
         
         var onboardingViews: [OnboardingItemInfo] = []
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "onbroading 1"),title:"Welcome To Streets", description: "To learn the history behind street names in your neighborhood", pageIcon:UIImage(), color: backgroundColorOne, titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "onboarding1v2"),title:"Welcome To Streets", description: "To learn the history behind street names in your neighborhood", pageIcon:UIImage(), color: backgroundColorOne, titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "Onboarding2"), title:"Pick Your Neighborhood", description: "Learn street to street", pageIcon:UIImage(), color:backgroundColorTwo, titleColor: UIColor.white, descriptionColor:UIColor.white, titleFont: titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "onboarding2v2"), title:"Pick Your Neighborhood", description: "Learn street to street", pageIcon:UIImage(), color:backgroundColorTwo, titleColor: UIColor.white, descriptionColor:UIColor.white, titleFont: titleFont!, descriptionFont: descriptionFont!))
         
-        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "onbroading 3") , title:"Follow The Route", description: "Discover the history", pageIcon:UIImage(), color: backgroundColorThree,titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
+        onboardingViews.append(OnboardingItemInfo(informationImage: #imageLiteral(resourceName: "onboarding 3 v2") , title:"Follow The Route", description: "Discover the history", pageIcon:UIImage(), color: backgroundColorThree,titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont:titleFont!, descriptionFont: descriptionFont!))
         
         return onboardingViews[index]
     }

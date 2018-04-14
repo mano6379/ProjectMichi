@@ -21,6 +21,7 @@ class RouteVC: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        self.navigationItem.title = "Route"
         
         centerMapOnLocation(location: initialLocation)
         
@@ -36,6 +37,17 @@ class RouteVC: UIViewController {
             CLLocationCoordinate2D(latitude: 21.294097, longitude: -157.825198 ))
         mapView.addAnnotation(youngStreet)
         
+        let kingStreet = Restaurant(title: "King", type: "King", coordinate:
+            CLLocationCoordinate2D(latitude: 21.293271, longitude: -157.825492 ))
+        mapView.addAnnotation(kingStreet)
+        
+        let haustenStreet = Restaurant(title: "Hausten", type: "Hausten", coordinate:
+            CLLocationCoordinate2D(latitude: 21.292611, longitude: -157.823839 ))
+        mapView.addAnnotation(haustenStreet)
+        
+        let kapaakeaStreet = Restaurant(title: "Kapaakea", type: "Kapaakea", coordinate:
+            CLLocationCoordinate2D(latitude: 21.292146, longitude: -157.822585 ))
+        mapView.addAnnotation(kapaakeaStreet)
         
         
         // Do any additional setup after loading the view.
