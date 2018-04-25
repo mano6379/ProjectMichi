@@ -9,9 +9,26 @@
 import UIKit
 
 class KalihiDetailedVCViewController: UIViewController {
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var textView: UITextView!
+        
+    var imagePass: String?
+    var textViewPass: String?
+    var titlePass: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let imageName = imagePass {
+            imageView.image = UIImage(named: imageName)
+        }
+        if let textViewName = textViewPass {
+            textView.text = textViewName
+        }
+        if let titleName = titlePass {
+            self.title = titleName
+        }
+
     }
 
     override func didReceiveMemoryWarning() {

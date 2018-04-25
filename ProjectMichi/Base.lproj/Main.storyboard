@@ -290,10 +290,10 @@
             </objects>
             <point key="canvasLocation" x="2280" y="764"/>
         </scene>
-        <!--View Controller-->
+        <!--Kalihi DetailedVC View Controller-->
         <scene sceneID="qbQ-Hi-0bD">
             <objects>
-                <viewController id="VCT-Eu-jTW" sceneMemberID="viewController">
+                <viewController id="VCT-Eu-jTW" customClass="KalihiDetailedVCViewController" customModule="ProjectMichi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eKl-hY-egK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,6 +314,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LzH-hc-01Q"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="HYj-Mq-vKF" id="T1x-D2-Rf5"/>
+                        <outlet property="textView" destination="hVq-5o-6j0" id="bNe-VH-XF9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c1J-2P-QYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

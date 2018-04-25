@@ -26,10 +26,10 @@ class detailViewController: UIViewController {
         }
         // Do any additional setup after loading the view.
         if let textViewName = textViewPass {
-            textView.text = textViewName 
+            textView.text = textViewName
         }
         if let titleName = titlePass {
-            self.title = titleName 
+            self.title = titleName
         }
     }
 
