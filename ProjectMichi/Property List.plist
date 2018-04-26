@@ -2,6 +2,40 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>KaihiRegionTextView</key>
+	<array/>
+	<key>KalihiStreetImage</key>
+	<array/>
+	<key>kalihiStreetTitle</key>
+	<array>
+		<string>Kalihi</string>
+		<string>N School </string>
+		<string>Hougtailing </string>
+		<string>Kapalama Ave</string>
+		<string>Bernice</string>
+		<string>Peter Buck</string>
+		<string>Brigham</string>
+		<string>N King </string>
+		<string>Waiakamilo</string>
+		<string>Winant </string>
+		<string>Alokele</string>
+		<string>Kaiwiula</string>
+		<string>McNeil</string>
+		<string>Kaumualii</string>
+		<string>Dillingham Blvd</string>
+		<string>Ahuula </string>
+		<string>Kahanu </string>
+		<string>Ashford </string>
+		<string>Mokuea</string>
+		<string>Akina </string>
+		<string>Self Ln </string>
+		<string>Puuhale Rd</string>
+		<string>Puula Ln</string>
+		<string>Hani Ln</string>
+		<string>Kaili </string>
+		<string>Beckly </string>
+		<string>Pahukui </string>
+	</array>
 	<key>StreetTitle</key>
 	<array>
 		<string>Beretania</string>

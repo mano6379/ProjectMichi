@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B029613205B546400C76F17 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B029612205B546400C76F17 /* Property List.plist */; };
 		4B029617205B58AC00C76F17 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B029616205B58AC00C76F17 /* detailViewController.swift */; };
+		4B1BC95C20898E790059D0B7 /* KalihiDetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BC95B20898E790059D0B7 /* KalihiDetailedVC.swift */; };
 		4B65F527207DA182005594B7 /* RouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B65F526207DA182005594B7 /* RouteVC.swift */; };
 		4B65F529207DA6AD005594B7 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B65F528207DA6AD005594B7 /* Restaurant.swift */; };
 		4B9EB4012058B35D004A9E33 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */; };
@@ -21,6 +22,7 @@
 		B2D65577203F96AA000B9BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D65575203F96AA000B9BD8 /* Main.storyboard */; };
 		B2D65579203F96AA000B9BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D65578203F96AA000B9BD8 /* Assets.xcassets */; };
 		B2D6557C203F96AA000B9BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D6557A203F96AA000B9BD8 /* LaunchScreen.storyboard */; };
+		F135553A2086DE2A007B12DB /* KalihiTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13555392086DE2A007B12DB /* KalihiTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,7 @@
 /* Begin PBXFileReference section */
 		4B029612205B546400C76F17 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		4B029616205B58AC00C76F17 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		4B1BC95B20898E790059D0B7 /* KalihiDetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalihiDetailedVC.swift; sourceTree = "<group>"; };
 		4B65F526207DA182005594B7 /* RouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteVC.swift; sourceTree = "<group>"; };
 		4B65F528207DA6AD005594B7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		B2D65578203F96AA000B9BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D6557B203F96AA000B9BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2D6557D203F96AA000B9BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13555392086DE2A007B12DB /* KalihiTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalihiTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				4B65F528207DA6AD005594B7 /* Restaurant.swift */,
 				4B029612205B546400C76F17 /* Property List.plist */,
 				B2D65575203F96AA000B9BD8 /* Main.storyboard */,
+				F13555392086DE2A007B12DB /* KalihiTableVC.swift */,
+				4B1BC95B20898E790059D0B7 /* KalihiDetailedVC.swift */,
 				4B9EB4022058B3B9004A9E33 /* MoililiTableVC.swift */,
 				4B029616205B58AC00C76F17 /* detailViewController.swift */,
 				4B9EB4002058B35D004A9E33 /* HomeScreenVC.swift */,
@@ -178,8 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F135553A2086DE2A007B12DB /* KalihiTableVC.swift in Sources */,
 				4BD9BF8B203FB6F30086D791 /* OnboardingView.swift in Sources */,
 				4B65F527207DA182005594B7 /* RouteVC.swift in Sources */,
+				4B1BC95C20898E790059D0B7 /* KalihiDetailedVC.swift in Sources */,
 				4B9EB4032058B3B9004A9E33 /* MoililiTableVC.swift in Sources */,
 				B2D65574203F96AA000B9BD8 /* ViewController.swift in Sources */,
 				4B65F529207DA6AD005594B7 /* Restaurant.swift in Sources */,
