@@ -10,17 +10,24 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class RouteVC: UIViewController {
+class RouteVC: UIViewController, CLLocationManagerDelegate{
     
     
     @IBOutlet weak var mapView: MKMapView!
     let initialLocation = CLLocation(latitude: 21.293755, longitude: -157.824705)
     let regionRadius: CLLocationDistance = 1000
     
+    let locationManager = CLLocationManager()
 
-    override func viewDidLoad() {
-        
+
+   override func viewDidLoad() {
         super.viewDidLoad()
+
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
+    
+
         self.navigationItem.title = "Route"
         
         centerMapOnLocation(location: initialLocation)
@@ -48,10 +55,22 @@ class RouteVC: UIViewController {
         let kapaakeaStreet = Restaurant(title: "Kapaakea", type: "Kapaakea", coordinate:
             CLLocationCoordinate2D(latitude: 21.292146, longitude: -157.822585 ))
         mapView.addAnnotation(kapaakeaStreet)
+    
+    
         
-        
-        // Do any additional setup after loading the view.
+      
     }
+
+    func locationManager( _ manager:CLLocationManager, didUpdateLocations locations: [CLLocation]){
+    
+    let location = locations [0]
+    let center = location.coordinate
+    let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+    let region = MKCoordinateRegion(center: center, span: span)
+    
+    mapView.setRegion(region, animated: true)
+    mapView.showsUserLocation = true
+}
 
     
     func centerMapOnLocation(location:CLLocation) {
@@ -61,18 +80,10 @@ class RouteVC: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+  
 
 }
