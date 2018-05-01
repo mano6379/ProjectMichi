@@ -65,7 +65,8 @@ class RouteVC: UIViewController, CLLocationManagerDelegate{
     
     let location = locations [0]
     let center = location.coordinate
-    let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+        //adjusted latitude Delta and longitudeDelta
+    let span = MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
     let region = MKCoordinateRegion(center: center, span: span)
     
     mapView.setRegion(region, animated: true)
