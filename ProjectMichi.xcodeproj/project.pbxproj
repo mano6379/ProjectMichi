@@ -22,6 +22,7 @@
 		B2D65577203F96AA000B9BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D65575203F96AA000B9BD8 /* Main.storyboard */; };
 		B2D65579203F96AA000B9BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D65578203F96AA000B9BD8 /* Assets.xcassets */; };
 		B2D6557C203F96AA000B9BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D6557A203F96AA000B9BD8 /* LaunchScreen.storyboard */; };
+		F1030D9E2099596300533B04 /* KalihiRouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1030D9D2099596300533B04 /* KalihiRouteVC.swift */; };
 		F135553A2086DE2A007B12DB /* KalihiTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13555392086DE2A007B12DB /* KalihiTableVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		B2D65578203F96AA000B9BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D6557B203F96AA000B9BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2D6557D203F96AA000B9BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1030D9D2099596300533B04 /* KalihiRouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalihiRouteVC.swift; sourceTree = "<group>"; };
 		F13555392086DE2A007B12DB /* KalihiTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalihiTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B2D65571203F96AA000B9BD8 /* AppDelegate.swift */,
+				F1030D9D2099596300533B04 /* KalihiRouteVC.swift */,
 				B2D65573203F96AA000B9BD8 /* ViewController.swift */,
 				4B65F526207DA182005594B7 /* RouteVC.swift */,
 				4B65F528207DA6AD005594B7 /* Restaurant.swift */,
@@ -189,6 +192,7 @@
 				4B65F527207DA182005594B7 /* RouteVC.swift in Sources */,
 				4B1BC95C20898E790059D0B7 /* KalihiDetailedVC.swift in Sources */,
 				4B9EB4032058B3B9004A9E33 /* MoililiTableVC.swift in Sources */,
+				F1030D9E2099596300533B04 /* KalihiRouteVC.swift in Sources */,
 				B2D65574203F96AA000B9BD8 /* ViewController.swift in Sources */,
 				4B65F529207DA6AD005594B7 /* Restaurant.swift in Sources */,
 				B2D65572203F96AA000B9BD8 /* AppDelegate.swift in Sources */,
