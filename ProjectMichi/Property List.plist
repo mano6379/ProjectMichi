@@ -3,7 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>KaihiRegionTextView</key>
-	<array/>
+	<array>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
 	<key>KalihiStreetImage</key>
 	<array/>
 	<key>kalihiStreetTitle</key>
