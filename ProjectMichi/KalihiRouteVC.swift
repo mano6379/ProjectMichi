@@ -28,7 +28,7 @@ class KalihiRouteVC: UIViewController, CLLocationManagerDelegate{
         
         self.navigationItem.title = "Route"
         
-        let BerniceStreet = Restaurant(title: "Berince", type: "Bernice", coordinate:
+        let BerniceStreet = Restaurant(title: "Bernice", type: "Bernice", coordinate:
             CLLocationCoordinate2D(latitude: 21.332985, longitude: -157.869169 ))
         mapView.addAnnotation(BerniceStreet)
         

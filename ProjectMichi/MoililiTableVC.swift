@@ -10,13 +10,8 @@ import UIKit
 
 class MoililiTableVC: UIViewController, UITableViewDataSource, UITableViewDelegate { 
   
+        var moiliiliStreetNames = ["Beretania","Young","Isenberg","King", "Hausten", "Kapaʻakea"]
     
-   
-        
-        var moiliiliStreetNames = ["Beretania","Young","Isenberg","King",  "Hausten", "Kapaakea"]
-        
-    
-        
         @IBOutlet weak var tableView: UITableView!
     
     var streetImageData = [String]()

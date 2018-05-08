@@ -13,7 +13,7 @@ class KalihiTableVC: UIViewController, UITableViewDataSource, UITableViewDelegat
     
     @IBOutlet weak var TableView: UITableView!
     
-    var kalihiStreetNames = ["Kalihi", "N School", "Hougtailing", "Kapalama Ave", "Bernice", "Peter Buck", "Brigham", "N King", "Waiakamilo", "Winant", "Alokele", "Kaiwiula", "McNeil", "Kaumualii", "Dillingham Blvd", "Ahuula", "Kahanu", "Ashford", "Mokuea", "Akina", "Self Ln", "Puuhale Rd", "Puula Ln", "Hani Ln", "Kaili", "Beckly", "Fernandez" ]
+    var kalihiStreetNames = ["Bernice", "Hougtailing", "Peter Buck", "Kapālama","Brigham", "Winant", "Alokele", "Kaiwiʻula", "McNeil", "Waiakamilo"]
     var streetImageData = [String]()
     var textViewData = [String]()
     var streetTitleData = [String]()
@@ -60,9 +60,10 @@ class KalihiTableVC: UIViewController, UITableViewDataSource, UITableViewDelegat
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "KalihiRegion"
         {
-            let s1 = segue.destination as! detailViewController
+            //let s1 = segue.destination as! detailViewController
+            let s1 = segue.destination as! KalihiDetailedVCViewController
             let imageIndex = TableView.indexPathForSelectedRow?.row
-            s1.imagePass = streetImageData [imageIndex!]
+           // s1.imagePass = streetImageData [imageIndex!]
             s1.textViewPass = textViewData [imageIndex!]
             s1.titlePass = streetTitleData [imageIndex!]
         }
