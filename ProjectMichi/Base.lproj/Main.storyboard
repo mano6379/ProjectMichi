@@ -183,7 +183,7 @@
                                 <rect key="frame" x="212" y="367" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
-                                <state key="normal" title="Waikiki" backgroundImage="Waikiki Button">
+                                <state key="normal" backgroundImage="waikikibutton2">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
@@ -217,7 +217,7 @@
                                 <rect key="frame" x="29" y="367" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
-                                <state key="normal" title="Mōilili" backgroundImage="Moilili">
+                                <state key="normal" backgroundImage="Moiliilibutton2">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -282,6 +282,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YO7-qH-ktk"/>
                     </view>
+                    <navigationItem key="navigationItem" id="AXp-6e-GeL">
+                        <barButtonItem key="rightBarButtonItem" title="KalihiRoute" image="map_marker" id="Msx-QP-Ihy">
+                            <connections>
+                                <segue destination="Meb-ei-4rh" kind="show" id="OjH-Bg-Tkc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="TableView" destination="swm-AH-zv6" id="Y9A-rk-GUR"/>
                     </connections>
@@ -321,12 +328,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c1J-2P-QYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2927" y="764"/>
+            <point key="canvasLocation" x="3021" y="764"/>
         </scene>
-        <!--View Controller-->
+        <!--Kalihi RouteVC-->
         <scene sceneID="aFA-ss-wqS">
             <objects>
-                <viewController id="Meb-ei-4rh" sceneMemberID="viewController">
+                <viewController id="Meb-ei-4rh" customClass="KalihiRouteVC" customModule="ProjectMichi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G22-VM-F7e">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -339,6 +346,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="19q-Ba-Ug8"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="arU-S5-rqh" id="Iv4-Hu-9ct"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fl7-hV-u7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -366,10 +376,10 @@
     <resources>
         <image name="Chinatown button" width="60" height="60"/>
         <image name="Kalihi Button" width="60" height="45"/>
-        <image name="Moilili" width="60" height="60"/>
+        <image name="Moiliilibutton2" width="60" height="60"/>
         <image name="StreetsGraphic" width="486" height="393"/>
-        <image name="Waikiki Button" width="60" height="57"/>
         <image name="map_marker" width="30" height="30"/>
+        <image name="waikikibutton2" width="60" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Fnq-Vp-2k0"/>
